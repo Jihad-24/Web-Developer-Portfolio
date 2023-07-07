@@ -91,10 +91,11 @@ nav a {
 }
 
 /* main section styles */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
+
 /* about section style */
 .about {
     padding: 130px;
@@ -117,10 +118,25 @@ main{
     font-weight: 400;
     line-height: 30px;
 }
-.about-Info-container{
+
+.about-Info-container {
     display: flex;
     justify-content: space-around;
 }
-.about-Info{
+
+.about-Info {
     text-align: center;
+}
+
+.Info-title {
+    color: #757575;
+    margin-bottom: 0;
+}
+
+.Info-discription {
+    font-weight: bold;
+}
+
+#what-i-do-discription {
+    padding: 30px 150px;
 }
